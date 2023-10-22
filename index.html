@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Wintima</title>
-    <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-    
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body {
+body {
             margin: 0;
             padding: 0;
             display: flex;
@@ -23,9 +19,33 @@
             width: auto;
             height: auto;
         }
+        /* CSS for the desktop image */
+        .desktop-image {
+            display: block; /* Show the image on desktop */
+        }
+        
+        /* CSS for the mobile image */
+        .mobile-image {
+            display: none; /* Hide the image on mobile */
+        }
+        
+        @media (max-width: 768px) {
+            /* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+            .desktop-image {
+                display: none; /* Hide the image on mobile */
+            }
+            .mobile-image {
+                display: block; /* Show the image on mobile */
+            }
+        }
     </style>
 </head>
 <body>
-   <img src="images/Home.png" alt="Responsive Image">
+    <div class="desktop-image">
+        <img src="images/Home.png" alt="Desktop Image">
+    </div>
+    <div class="mobile-image">
+        <img src="images/Copy of Fundraiser.jpg" alt="Mobile Image">
+    </div>
 </body>
 </html>
