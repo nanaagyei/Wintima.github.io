@@ -18,15 +18,13 @@ body {
     padding: 20px;
     background-color: #fff;
     position: absolute;
-    top: 10px;
-    right: 10px;
-
+    top: 0px;
+    right: 0px;
 }
 
 .logo img {
     height: 40px;
     padding-left: 100px;
-
 }
 
 .donate-button {
@@ -40,6 +38,7 @@ body {
     font-weight: bold;
     font-size: 16px;
 }
+
 .donate-button::after {
     content: '➔'; /* Arrow icon */
     font-size: 16px;
@@ -48,6 +47,11 @@ body {
     color: #7c0d0d;
     border-radius: 50%;
     padding: 3px;
+}
+
+.donate-button a {
+    text-decoration: none;
+    color: inherit; /* Ensure the text color inherits from the parent */
 }
 
 
@@ -131,21 +135,143 @@ body {
     font-size: 24px;
 }
 
+
+
+.container {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+/* Styles for the donate page */
+.donate-content {
+    flex: 1;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    max-width: 800px;
+    
+}
+
+.donate-content h1 {
+    font-size: 30px;
+    color: #801417;
+    margin-bottom: 40px;
+    padding: 0px 10px;
+    justify-content: center;
+}
+
+
+
+.donate-options {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.donate-options .donate-with-button {
+    background-color: #801417;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 15px 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    transition: background-color 0.3s;
+}
+
+.donate-options .donate-with-button i {
+    margin-left: 10px;
+}
+
+.donate-options .donate-with-button:hover {
+    background-color: #a11a1a;
+}
+
+
+
+/*Side Bar style*/
+
+.sidebar {
+    background-color: white;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    box-shadow: 0 0 20px rgba(161,26,26,0.3);
+    transition: width 0.3s;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding-top: 85px;
+}
+
+.sidebar:hover {
+    width: 90px;
+}
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #801417;
+    font-size: 15px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+.sidebar-text {
+    margin-left: 5px;
+    display: none;
+    font-size: 12px;
+    justify-content: left;
+    color: #801417;
+}
+
+.sidebar:hover .sidebar-text {
+    display: inline;
+}
+
+
 footer {
-  background-color: #801417;
-  width: 100%;
+    background-color: #801417;
+    width: 100%;
 }
 
 .contact-icons {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  color: #AEB6BF; /* Default icon color */
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: #AEB6BF; /* Default icon color */
 }
 
 .contact-icons li {
-  margin: 0 10px;
+    margin: 0 10px;
 }
 
 /* Custom styles for icons */
