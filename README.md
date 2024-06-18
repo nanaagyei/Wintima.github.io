@@ -32,4 +32,4 @@ The source code in this repository is licensed under the [MIT License](./LICENSE
 ## Contact Us
 If you have any questions, you can reach out to us at [wintimafoundation@gmail.com].
 
-Thank you for visiting our repository and for your interest in supporting [Wintima Foundation]!
+Thank you for visiting our repository and for your interest in supporting **Wintima Foundation**!
