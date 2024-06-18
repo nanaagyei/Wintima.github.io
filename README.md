@@ -1,4 +1,4 @@
-<img src="./images/logo.png" alt="NGO Logo" width="65" height="50"> # Welcome to Wintima's Website Repo
+# <img src="./images/logo.png" alt="NGO Logo" width="65" height="50"> Welcome to Wintima's Website Repo
 ## About Us
 Wintima Foundation is an education focused non-profit organisation in Ghana registered in 2021 as a Company Limited by Guarantee. The Foundation has been in existence since 2015 to address issues faced by students in the Upper East Region of Ghana.
 
