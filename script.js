@@ -29,3 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
         currentSlide = (currentSlide + 1) % slideshowImages.length;
         slideshowImages[currentSlide].classList.add('active');
     }
+
+    setInterval(showNextSlide, 4000);
+});
