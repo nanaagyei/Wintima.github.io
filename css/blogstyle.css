@@ -370,6 +370,69 @@ header {
     font-size: 12px;
     color: #888;
 }
+
+.donate-page {
+    text-align: center;
+    padding: 50px 20px;
+    margin: 100px auto;
+    max-width: 800px;
+  }
+  
+  .donate-title {
+    font-size: 2.5rem;
+    color: #7b2c26;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .donate-subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .highlight {
+    color: #7b2c26;
+    font-weight: bold;
+  }
+  
+  .donate-buttons {
+    background-color: #f9f9f9;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 40px;
+  }
+  
+  .donate-button {
+    background-color: #7b2c26;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px; /* Set a max width for the button */
+    width: 100%;
+  }
+  
+  .donate-button i {
+    margin-left: 10px;
+  }
+  
+  .donate-button:hover {
+    background-color: #5a1e1a;
+    transform: scale(1.02);
+  }
   
   /* Responsive Design */
 @media (max-width: 768px) {
